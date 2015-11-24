@@ -12,7 +12,7 @@
 //
 //
 //  @copyright 2015, Loft Digital, www.weareloft.com
-//  Licensed under MIT (https://github.loftdigital.net/LoftDigital/echo-base/blob/master/LICENSE)
+//  Licensed under MIT (https://github.com/loftdigital/echo-base/blob/develop/LICENSE)
 //
 //==============================================================================
 
@@ -122,8 +122,7 @@ $input-search-box-sizing: $global-box-sizing !default;
     font-size: $input-text-font-size;
     font-weight: $input-text-font-weight;
     line-height: $input-text-line-height;
-    -moz-appearance: $input-text-appearance;
-    -webkit-appearance: $input-text-appearance;
+    appearance: $input-text-appearance;
 
     &:focus {
         color: $input-text-color-focus;
